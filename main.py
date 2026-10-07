@@ -6,7 +6,7 @@ for d in [land, sea, air]:
     cities.update(d.keys())
 
 print("* CITIES ON MAP *")
-for city in cities:
+for city in sorted(cities):
     print(city)
 
 start = input("\nOrigin: ")
